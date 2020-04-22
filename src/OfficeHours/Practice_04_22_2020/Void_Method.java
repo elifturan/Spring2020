@@ -7,6 +7,7 @@ print();
 Vote(20,true);
 Vote(35 , false);
 Vote(17,true);
+        System.out.println("===========================");
 EligibleToByCig(17);
     }
 
