@@ -7,6 +7,7 @@ print();
 Vote(20,true);
 Vote(35 , false);
 Vote(17,true);
+EligibleToByCig(17);
     }
 
 public static void print(){
@@ -28,5 +29,11 @@ for(int i = 0; i < 5 ;i++) {
         }
 
     }
-
+public static void EligibleToByCig(int age){
+        if (age >18){
+            System.out.println("Eligible to buy");
+        }else{
+            System.out.println("Not eligible");
+        }
+}
 }
