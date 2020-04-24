@@ -14,9 +14,15 @@ public class Date_Formatting {
         System.out.println(date1.format(dtf));
 
 //create a date called Birthday: month/Days/year
-        DateTimeFormatter brth=DateTimeFormatter.ofPattern("MMM/dd/yyyy");
+        DateTimeFormatter brth=DateTimeFormatter.ofPattern("MMMM/dd/yyyy");
         LocalDate birthday =LocalDate.of(1990,04,05);
         System.out.println("My husband birthday is: "+birthday.format(brth));
+
+        DateTimeFormatter brth2=DateTimeFormatter.ofPattern("EEE MMMM/dd/yyyy");
+       LocalDate birthday2 =LocalDate.of(1994,05,24);
+        String str = birthday2.format(brth2);
+
+        System.out.println("My birthday is: "+str);
     }
 
 
