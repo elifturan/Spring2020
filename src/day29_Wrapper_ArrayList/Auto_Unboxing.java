@@ -1,5 +1,7 @@
 package day29_Wrapper_ArrayList;
 
+import java.util.Arrays;
+
 public class Auto_Unboxing {
     public static void main(String[] args) {
 
@@ -10,9 +12,5 @@ public class Auto_Unboxing {
         short s1 =b1;//unboxing
         byte b2 = b1;//unboxing
         int i1 = b1;//unboxing
-
-
-
-
     }
 }
