@@ -1,28 +1,38 @@
 package Replit;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Assessment4 {
     public static void main(String[] args) {
 
+ArrayList<String> worldList1 = new ArrayList<>();
+
 
 
     }
-    public static boolean getThunderBlazz(boolean available,boolean gift, int ingredient1
-            , int ingredient2, int ingredient3) {
-if(gift){
-    return true;
-}
+    public static ArrayList<Integer> appendPosSum(ArrayList<Integer> num){
+        ArrayList<Integer> list=new ArrayList<>();
+        int sum=0;
+        int count=0;
+        for (int i = 0; i < num.size() ; i++) {
+            if(num.get(i)>0){
+                list.add(num.get(i));
+                sum+=num.get(i);
+                count++;
+            }
+        }
+        list.add(count,sum);
+return list;
 
-
-        if(available){
-    if((ingredient1==1&&ingredient2==2&&ingredient3==3)||(ingredient1==3&&ingredient2==1&&ingredient3==2)){
-        return true;
     }
-}
 
-return false;
-    }
+
+
+
+
+
+
 
 
 
