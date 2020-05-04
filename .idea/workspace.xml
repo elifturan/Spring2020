@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca52339c-3ec0-4223-b57b-58f14e374125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Replit/WarmUpTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day33_CustomClass/Uniques_warmup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day33_CustomClass/Duplicates_Warmup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B19_Java/Replit/Assessment4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B19_Java/Replit/Assessment4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit/Assessment4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit/Assessment4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Replit/Hellooooo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Replit/Hellooooo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Spring2020B19_Java/Replit/Hellooooo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Spring2020B19_Java/Replit/Hellooooo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,13 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583770959300</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Practice">
-      <created>1587580897313</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1587580897313</updated>
     </task>
     <task id="LOCAL-00008" summary="Practice">
       <created>1587581035989</created>
@@ -496,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588386023398</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Day 32 Class">
+      <created>1588601924147</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1588601924151</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -532,10 +529,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="403" y="123" key="#oyesu/0.0.1440.900@0.0.1440.900" timestamp="1586053835578" />
-    <state x="342" y="38" key="CommitChangelistDialog2" timestamp="1588386023050">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="342" y="52" key="CommitChangelistDialog2" timestamp="1588601923465">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="342" y="52" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1587581197506" />
+    <state x="342" y="52" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1588601923465" />
     <state x="342" y="38" key="CommitChangelistDialog2/0.23.1440.811/1440.23.1920.1057@0.23.1440.811" timestamp="1588386023049" />
     <state x="342" y="38" key="CommitChangelistDialog2/0.23.1440.812/1440.23.1920.1057@0.23.1440.812" timestamp="1588361648176" />
     <state x="342" y="38" key="CommitChangelistDialog2/0.23.1440.814/1440.23.1920.1057@0.23.1440.814" timestamp="1588348861507" />
@@ -673,10 +670,10 @@
     <state x="1545" y="81" key="SettingsEditor/0.23.1440.812/1440.23.1920.1057@1440.23.1920.1057" timestamp="1583777465630" />
     <state x="79" y="68" key="SettingsEditor/0.23.1440.814/1440.23.1920.1057@0.23.1440.814" timestamp="1586786085143" />
     <state x="1545" y="81" key="SettingsEditor/0.23.1440.814/1440.23.1920.1057@1440.23.1920.1057" timestamp="1583771762452" />
-    <state x="320" y="195" key="Vcs.Push.Dialog.v2" timestamp="1588386025804">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1588601929701">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1587581210172" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1588601929701" />
     <state x="320" y="195" key="Vcs.Push.Dialog.v2/0.23.1440.811/1440.23.1920.1057@0.23.1440.811" timestamp="1588386025804" />
     <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.812/1440.23.1920.1057@0.23.1440.812" timestamp="1588361650856" />
     <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.814/1440.23.1920.1057@0.23.1440.814" timestamp="1588348863821" />
