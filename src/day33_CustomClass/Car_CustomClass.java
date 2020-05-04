@@ -21,7 +21,16 @@ public class Car_CustomClass {
     public void getCarInfo(){
         System.out.println(year+" "+Brand+" "+Model+" "+color);
 
-    } //public void
+    } public void setCarInfo(String carBrand,String carModel, int carYear, String carColor){
+      Brand =carBrand;
+      Model=carModel;
+      year=carYear;
+      color=carColor;
+
+    } public String toString(){
+        String result=year+" "+Brand+" "+Model+" "+color;
+        return result;
+    }
 
 
     public static void main(String[] args) {
