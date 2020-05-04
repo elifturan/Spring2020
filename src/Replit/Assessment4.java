@@ -1,39 +1,27 @@
 package Replit;
+
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
+import java.util.function.Predicate;
 
 public class Assessment4 {
-    public static void main(String[] args) {
+    public static String extractNum(String s) {
+         char[] ch = s.toCharArray();
+         String result ="";
 
-ArrayList<String> worldList1 = new ArrayList<>();
-
-
-
-    }
-    public static ArrayList<Integer> appendPosSum(ArrayList<Integer> num){
-        ArrayList<Integer> list=new ArrayList<>();
-        int sum=0;
-        int count=0;
-        for (int i = 0; i < num.size() ; i++) {
-            if(num.get(i)>0){
-                list.add(num.get(i));
-                sum+=num.get(i);
-                count++;
-            }
+        for (int i = 0; i <ch.length ; i++) {
+         if(Character.isDigit(ch[i])){
+             result+=ch[i];
+         }
         }
-        list.add(count,sum);
-return list;
+
+        return result;
+
+
 
     }
-
-
-
-
-
-
-
-
-
 
 }
