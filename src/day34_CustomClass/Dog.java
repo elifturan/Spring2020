@@ -23,7 +23,7 @@ public void sleep(){
         System.out.println(name+ " is drinking");
     }
 public String toString(){
-    return "Breed is: "+breed+
-    "\nName is: "+name+"\nSize is: "+size+"\nAge is: "+age+"\nColor is: "+color;
+    return "\nDog Name : "+name+"Breed is: "+breed+
+    ", size is: "+size+"age is: "+age+", color is: "+color;
 }
 }

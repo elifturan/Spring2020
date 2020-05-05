@@ -1,9 +1,14 @@
 package day34_CustomClass;
 
+import sun.jvm.hotspot.gc_interface.CollectedHeapName;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class DogObject {
     public static void main(String[] args) {
         Dog dog1 = new Dog();
-        dog1.setDogInfo("Husky","small",1,"yellow","Bestie");
+        dog1.setDogInfo("Husky", "small", 1, "yellow", "Bestie");
         System.out.println(dog1);
    /*    dog1.breed="Husky";
        dog1.size ="Small";
@@ -19,8 +24,38 @@ public class DogObject {
         System.out.println(dog1.color);
         System.out.println(dog1.name);
         System.out.println(dog1.age);
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`");
+        Dog dog2 = new Dog();
+        dog2.setDogInfo("Alabay","Extra big",5,"Brown","Comar");
+
+        Dog dog3 = new Dog();
+        dog3.setDogInfo("Poodle","Miniature",2,"white","Sasha");
+
+        System.out.println(dog1);
+        System.out.println(dog2);
+        System.out.println(dog3);
+
+        Dog dog4 =new Dog();
+        dog4.setDogInfo("Pomeranian", "Small", 3, "White", "Lil");
+
+        Dog dog5 = new Dog();
+        dog5.setDogInfo("pomeranian", "Small",4, "White", "Ernie");
 
 
+
+
+        ArrayList<Dog> puppies = new ArrayList<>();
+
+        puppies.addAll(Arrays.asList(dog1,dog2,dog3));
+        puppies.addAll(Arrays.asList(dog4,dog5));
+        for (int i = 0; i <puppies.size() ; i++) {
+          Dog eachdog =  puppies.get(i);
+            System.out.println(eachdog);
+        }
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+        puppies.removeIf(p-> p.age>2);
+        System.out.println(puppies);
 
 
 
