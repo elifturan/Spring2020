@@ -1,6 +1,6 @@
 package day33_CustomClass;
 
-import sun.management.VMOptionCompositeData;
+
 
 public class Car_CustomClass {
     //instance variable: object variables
@@ -26,6 +26,7 @@ public class Car_CustomClass {
       Model=carModel;
       year=carYear;
       color=carColor;
+
 
     } public String toString(){
         String result=year+" "+Brand+" "+Model+" "+color;
