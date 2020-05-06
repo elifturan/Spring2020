@@ -15,7 +15,11 @@ public class ScrumTeam {
         testerTeam.removeIf(p->p.employeeId == id);
 
     }
-
-
+public void hireADeveloper (Developer developer){
+        developerTeam.add(developer);
+}
+public void fireADeveloper(long id){
+        developerTeam.removeIf(p->p.employeeId==id);
+}
 
 }
