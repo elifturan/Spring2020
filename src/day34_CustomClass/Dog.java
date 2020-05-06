@@ -1,6 +1,10 @@
 package day34_CustomClass;
 
 public class Dog {
+
+
+
+
     String breed;
     String size;
     int age;
