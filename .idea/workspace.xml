@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca52339c-3ec0-4223-b57b-58f14e374125" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day34_CustomClass/BankOfAmerica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day34_CustomClass/CapitalOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day34_CustomClass/ObjectMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day34_CustomClass/ScrumTeam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day34_CustomClass/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OfficeHours/Practice_05_06_2020/instanceVariables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Resources/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34_CustomClass/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day34_CustomClass/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day34_CustomClass/DogObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day34_CustomClass/DogObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +49,7 @@
       <recent name="Resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BankOfAmerica">
+  <component name="RunManager" selected="Application.instanceVariables">
     <configuration name="BankOfAmerica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day34_CustomClass.BankOfAmerica" />
       <module name="Spring2020B19_Java" />
@@ -72,19 +65,6 @@
     </configuration>
     <configuration name="CapitalOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day34_CustomClass.CapitalOne" />
-      <module name="Spring2020B19_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day34_CustomClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarpetObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day34_CustomClass.CarpetObject" />
       <module name="Spring2020B19_Java" />
       <extension name="coverage">
         <pattern>
@@ -135,13 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="instanceVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OfficeHours.Practice_05_06_2020.instanceVariables" />
+      <module name="Spring2020B19_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OfficeHours.Practice_05_06_2020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.instanceVariables" />
         <item itemvalue="Application.BankOfAmerica" />
         <item itemvalue="Application.ObjectMemory" />
         <item itemvalue="Application.CapitalOne" />
         <item itemvalue="Application.StudentsObject" />
-        <item itemvalue="Application.CarpetObject" />
       </list>
     </recent_temporary>
   </component>
@@ -155,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583770959300</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Day28 Class">
-      <created>1587743379122</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1587743379122</updated>
     </task>
     <task id="LOCAL-00023" summary="Day28 Class">
       <created>1587743568860</created>
@@ -499,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588704943852</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Day 34 Class">
+      <created>1588788208388</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1588788208389</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -537,12 +530,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="403" y="123" key="#oyesu/0.0.1440.900@0.0.1440.900" timestamp="1586053835578" />
-    <state x="342" y="38" key="CommitChangelistDialog2" timestamp="1588704943447">
+    <state x="342" y="38" key="CommitChangelistDialog2" timestamp="1588788207695">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="342" y="52" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1588601923465" />
     <state x="342" y="17" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588630956786" />
-    <state x="342" y="38" key="CommitChangelistDialog2/0.23.1440.811/1440.23.1920.1057@0.23.1440.811" timestamp="1588704943447" />
+    <state x="342" y="38" key="CommitChangelistDialog2/0.23.1440.811/1440.23.1920.1057@0.23.1440.811" timestamp="1588788207695" />
     <state x="342" y="38" key="CommitChangelistDialog2/0.23.1440.812/1440.23.1920.1057@0.23.1440.812" timestamp="1588695262081" />
     <state x="342" y="38" key="CommitChangelistDialog2/0.23.1440.814/1440.23.1920.1057@0.23.1440.814" timestamp="1588348861507" />
     <state width="1398" height="133" key="GridCell.Tab.0.bottom" timestamp="1588731719796">
@@ -687,12 +680,12 @@
     <state x="1545" y="81" key="SettingsEditor/0.23.1440.812/1440.23.1920.1057@1440.23.1920.1057" timestamp="1583777465630" />
     <state x="79" y="68" key="SettingsEditor/0.23.1440.814/1440.23.1920.1057@0.23.1440.814" timestamp="1586786085143" />
     <state x="1545" y="81" key="SettingsEditor/0.23.1440.814/1440.23.1920.1057@1440.23.1920.1057" timestamp="1583771762452" />
-    <state x="320" y="195" key="Vcs.Push.Dialog.v2" timestamp="1588704945942">
+    <state x="320" y="195" key="Vcs.Push.Dialog.v2" timestamp="1588788211687">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1588601929701" />
     <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588630960139" />
-    <state x="320" y="195" key="Vcs.Push.Dialog.v2/0.23.1440.811/1440.23.1920.1057@0.23.1440.811" timestamp="1588704945942" />
+    <state x="320" y="195" key="Vcs.Push.Dialog.v2/0.23.1440.811/1440.23.1920.1057@0.23.1440.811" timestamp="1588788211687" />
     <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.812/1440.23.1920.1057@0.23.1440.812" timestamp="1588695263961" />
     <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.814/1440.23.1920.1057@0.23.1440.814" timestamp="1588348863821" />
     <state x="38" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1584972036121">
