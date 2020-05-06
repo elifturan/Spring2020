@@ -50,9 +50,9 @@
       <recent name="Resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppleINK">
-    <configuration name="AppleINK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OfficeHours.Practice_05_06_2020.AppleINK" />
+  <component name="RunManager" selected="Application.AppleINC">
+    <configuration name="AppleINC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OfficeHours.Practice_05_06_2020.AppleINC" />
       <module name="Spring2020B19_Java" />
       <extension name="coverage">
         <pattern>
@@ -131,7 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppleINK" />
+        <item itemvalue="Application.AppleINC" />
         <item itemvalue="Application.DevelopersObject" />
         <item itemvalue="Application.TesterObject" />
         <item itemvalue="Application.instanceVariables" />
@@ -531,13 +531,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="403" y="123" key="#oyesu/0.0.1440.900@0.0.1440.900" timestamp="1586053835578" />
-    <state x="342" y="38" key="CommitChangelistDialog2" timestamp="1588795535687">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="342" y="38" key="CommitChangelistDialog2" timestamp="1588798153820">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="342" y="52" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1588601923465" />
     <state x="342" y="17" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1588630956786" />
     <state x="342" y="38" key="CommitChangelistDialog2/0.23.1440.811/1440.23.1920.1057@0.23.1440.811" timestamp="1588788207695" />
-    <state x="342" y="38" key="CommitChangelistDialog2/0.23.1440.812/1440.23.1920.1057@0.23.1440.812" timestamp="1588793921011" />
+    <state x="342" y="38" key="CommitChangelistDialog2/0.23.1440.812/1440.23.1920.1057@0.23.1440.812" timestamp="1588798153820" />
     <state x="342" y="38" key="CommitChangelistDialog2/0.23.1440.814/1440.23.1920.1057@0.23.1440.814" timestamp="1588795535687" />
     <state width="790" height="139" key="GridCell.Tab.0.bottom" timestamp="1588798110659">
       <screen x="0" y="23" width="1440" height="812" />
@@ -681,13 +681,13 @@
     <state x="1545" y="81" key="SettingsEditor/0.23.1440.812/1440.23.1920.1057@1440.23.1920.1057" timestamp="1583777465630" />
     <state x="79" y="68" key="SettingsEditor/0.23.1440.814/1440.23.1920.1057@0.23.1440.814" timestamp="1586786085143" />
     <state x="1545" y="81" key="SettingsEditor/0.23.1440.814/1440.23.1920.1057@1440.23.1920.1057" timestamp="1583771762452" />
-    <state x="320" y="196" key="Vcs.Push.Dialog.v2" timestamp="1588795537639">
-      <screen x="0" y="23" width="1440" height="814" />
+    <state x="320" y="196" key="Vcs.Push.Dialog.v2" timestamp="1588798156157">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1588601929701" />
     <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1588630960139" />
     <state x="320" y="195" key="Vcs.Push.Dialog.v2/0.23.1440.811/1440.23.1920.1057@0.23.1440.811" timestamp="1588788211687" />
-    <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.812/1440.23.1920.1057@0.23.1440.812" timestamp="1588793923068" />
+    <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.812/1440.23.1920.1057@0.23.1440.812" timestamp="1588798156157" />
     <state x="320" y="196" key="Vcs.Push.Dialog.v2/0.23.1440.814/1440.23.1920.1057@0.23.1440.814" timestamp="1588795537639" />
     <state x="38" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1584972036121">
       <screen x="0" y="23" width="1440" height="808" />

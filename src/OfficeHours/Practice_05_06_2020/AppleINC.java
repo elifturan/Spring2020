@@ -1,6 +1,6 @@
 package OfficeHours.Practice_05_06_2020;
 
-public class AppleINK {
+public class AppleINC {
     public static void main(String[] args) {
 
         Tester tester1 = new Tester();
