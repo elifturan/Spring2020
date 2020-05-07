@@ -14,6 +14,10 @@ public class Static_Variables2 {
         System.out.println(obj2.insVariables);
         System.out.println(obj2.staticVariable);//400
 
+        System.out.println(Static_Variables2.staticVariable);// static can be called through the class name
+        //  System.out.println(Static_Variables2.insvariable); //  instance cannot be called through class name
+
+
     }
 
 }
