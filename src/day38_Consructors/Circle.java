@@ -15,7 +15,7 @@ package day38_Consructors;
  */
 
 public class Circle {
-    static double PI =3.14;
+    static double PI ;
     double radius;
     double diameter;
 
@@ -35,6 +35,8 @@ public String toString(){
                 "\nCircles diameter: "+diameter+
                 "\nCircles area: "+area()+
                 "\nCircles perimeter: "+perimeter();
-}
+} static{
+        PI =3.14;
+    }
 
 }
