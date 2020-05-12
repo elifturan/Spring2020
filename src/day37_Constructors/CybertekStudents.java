@@ -8,7 +8,7 @@ public class CybertekStudents {
     String batch; // we must need to know
 
     public CybertekStudents(String studentName, int groupNumber, String batch) {
-        schoolName = "Cybertek University";
+      //  schoolName = "Cybertek University";
         this.studentName = studentName;
         this.groupNumber = groupNumber;
         this.batch = batch;
@@ -23,6 +23,7 @@ public class CybertekStudents {
 class CObjects {
     public static void main(String[] args) {
         CybertekStudents student1 = new CybertekStudents("Elif",123,"18");
+        student1.schoolName="Harvard";
         System.out.println(student1);
         CybertekStudents student2 = new CybertekStudents("Orhan",1234,"18");
         System.out.println(student2);
